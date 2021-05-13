@@ -5,7 +5,7 @@ const data = [
   {name: "Furniture", children: [
     {name: "TablesChairs", children: [
       {name: "specialtable1", children: [
-        {name: "4thlevel1", children: []}
+        {name: "FOURTHlevel", children: []}
       ]},
       {name: "specialtable2", children: []}
     ]},
