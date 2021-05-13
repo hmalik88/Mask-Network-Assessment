@@ -5,7 +5,7 @@ function CheckBoxTree({nodes}) {
 
     return (
         <ul>
-            {nodes.map(node => <CheckBoxTreeNode name={node.name} children={node.children} />)}
+            {nodes.map((node, i) => <CheckBoxTreeNode key={i} name={node.name} children={node.children} />)}
         </ul>
     )
 }   

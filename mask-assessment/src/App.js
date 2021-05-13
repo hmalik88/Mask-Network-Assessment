@@ -3,16 +3,16 @@ import CheckBoxTree from './CheckBoxTree';
 
 const data = [
   {name: "Furniture", children: [
-    {name: "Tables & Chairs", children: [
+    {name: "TablesChairs", children: [
       {name: "specialtable1", children: [
         {name: "4thlevel1", children: []}
       ]},
       {name: "specialtable2", children: []}
     ]},
     {name: "Sofas", children: []},
-    {name: "Occasional Furniture", children: [
-      {name: "occ 1", children: []},
-      {name: "occ 2", children: []}
+    {name: "OccasionalFurniture", children: [
+      {name: "occ1", children: []},
+      {name: "occ2", children: []}
     ]}
   ] }
 ];
