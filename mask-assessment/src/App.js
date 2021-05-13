@@ -1,5 +1,6 @@
 import React from 'react';
 import CheckBoxTree from './CheckBoxTree';
+import './App.css';
 
 const data = [
   {name: "Furniture", children: [
