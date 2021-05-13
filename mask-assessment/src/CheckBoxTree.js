@@ -4,8 +4,10 @@ import CheckBoxTreeNode from './CheckBoxTreeNode';
 function CheckBoxTree({nodes}) {
 
     return (
-        <div>
+        <ul>
             {nodes.map(node => <CheckBoxTreeNode name={node.name} children={node.children} />)}
-        </div>
+        </ul>
     )
 }   
+
+export default CheckBoxTree;
