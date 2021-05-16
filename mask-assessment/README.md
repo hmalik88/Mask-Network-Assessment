@@ -1,4 +1,4 @@
-# Infinite Checkbox
+# Infinite Checkbox Tree
 
 Based on the data source being an array of objects with properties name and children, this code can render an infinite checkbox tree. If only some of a node's children are selected will a node have an indeterminate status, otherwise it is checked or un-checked.,
 
